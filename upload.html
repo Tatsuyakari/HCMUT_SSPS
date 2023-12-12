@@ -11,24 +11,29 @@
 
 <body>
     <nav class="navbar navbar-expand-md bg-body">
-        <div class="container-fluid"><a class="navbar-brand" href="#" style="padding-left:10px;"><span style="color:rgb(0, 54, 140);">SPSS </span><span style="color:rgb(16, 143, 212);">service</span></a><button data-bs-toggle="collapse" data-bs-target="#navcol-2" class="navbar-toggler"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><img src="assets/img/Logo-DH-Bach-Khoa-HCMUT.webp?h=ba6dcf89199f8de9bf45a67ab02093c6" width="46" height="44">
-            <div class="collapse navbar-collapse" id="navcol-2">
+        <div class="container-fluid"><a class="navbar-brand" href="#" style="padding-left: 10px;"><img src="assets/img/Logo-DH-Bach-Khoa-HCMUT.webp?h=ba6dcf89199f8de9bf45a67ab02093c6" width="46" height="44"><strong><span style="color: rgb(0, 54, 140); margin-left: 20px;">HCMUT SSPS</span><span style="color: rgb(16, 143, 212);"></span></strong></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="history.html">History</a></li>
                     <li class="nav-item"></li>
                 </ul>
-            </div><a class="btn btn-primary" role="button" style="background:rgb(16,143,212);" href="login.html">Login</a>
+            </div><a class="btn btn-primary" role="button" style="background: rgb(16,143,212);" href="index.html">Sign out</a>
         </div>
-    </nav>
+    </nav><!-- Start: Hero Banner -->
     <div class="container py-4 py-xl-5">
         <div class="row gy-4 row-cols-2 row-cols-md-4">
             <div class="col-lg-12">
                 <section class="py-4 py-xl-5">
                     <div class="container">
                         <div class="text-center p-4 p-lg-5">
-                            <p class="fw-bold text-primary mb-2">Paper left</p>
-                            <h3 class="fw-bold mb-4" id="paperCount"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewbox="0 0 16 16" class="bi bi-printer"><path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"></path><path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2H5zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4V3zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2H5zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1z"></path></svg><span id="paperCountValue">123+</span></h3><button class="btn btn-primary fs-5 me-2 py-2 px-4" id="buyMoreButton" role="button">Buy more papers</button><a class="btn btn-light fs-5 py-2 px-4" role="button" style="background:#f9d616;" href="print_final.html">Print</a>
+                            <h1 class="fw-bold text-primary mb-2"><span style="color: red;">A4 Papers chosen.</span></h1>
+                            <br>
+                            <h3 class="fw-bold text-primary mb-2">Page number of this document: 11.</h3>
+                            <br>
+                            <p class="fw-bold text-primary mb-2">Paper left:</p>
+                            <h3 class="fw-bold mb-4" id="paperCount"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewbox="0 0 16 16" class="bi bi-printer"><path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"></path><path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2H5zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4V3zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2H5zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1z"></path></svg><span id="paperCountValue">100</span></h3><button class="btn btn-primary fs-5 me-2 py-2 px-4" id="buyMoreButton" role="button">Buy more papers</button><button class="btn btn-primary fs-5 me-2 py-2 px-4" id="reduceNumberButton" style="background:orange;" role="button">Reduce paper number</button><a class="btn btn-light fs-5 py-2 px-4" role="button" style="background:#f9d616;" href="print_final.html">Print</a>
                         </div>
                     </div>
                 </section>
@@ -41,6 +46,13 @@
             var currentCount = parseInt(paperCountElement.innerText);
             if (!isNaN(currentCount)) {
                 paperCountElement.innerText = currentCount + 1;
+            }
+        });
+        document.getElementById('reduceNumberButton').addEventListener('click', function () {
+            var paperCountElement = document.getElementById('paperCountValue');
+            var currentCount = parseInt(paperCountElement.innerText);
+            if (!isNaN(currentCount)) {
+                paperCountElement.innerText = currentCount - 1;
             }
         });
     </script>

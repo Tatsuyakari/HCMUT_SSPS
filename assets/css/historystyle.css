@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+header > .navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    background-color: hsl(218, 28%, 13%);
+    font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+	margin: 0;
+}
+
+nav > ul{
+	list-style-type: none;
+}
+
+nav > ul > li{
+	display: inline;
+	padding-right: 3em;
+}
+
+.user-info-box
+{
+    width: 70%;
+    height: 400px;
+    background-color: whitesmoke;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.column
+{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.leftside
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.rightside
+{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.split-screen:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.printing-history-box
+{
+    width: 85%;
+    height: 500px;
+    background-color: whitesmoke;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buying-history-box
+{
+    width: 60%;
+    height: 500px;
+    background-color: whitesmoke;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.paper-box
+{
+    width: 35%;
+    height: 250px;
+    background-color: whitesmoke;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.buying-pages-button
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a{
+	color: white;
+	padding: 3px;
+}
+a:link{
+	text-decoration: none;
+
+}
+a:hover{
+	border: solid 2px;
+	padding: 1px;
+	border-radius: 5px;
+}
+a:visited{
+	color: white;
+}
